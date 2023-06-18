@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style/style.css">
+
+  <link rel="stylesheet" media="(max-width: 800px)" href="example.css">
+
+  <title></title>
+  <script src="https://kit.fontawesome.com/5088e84f48.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!--
+
+Cabeçalho da aplicação.
+
+-->
+  <header class="nav-header">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./img/logo/logo.png" alt="logo-img" height="45px" width="50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" onclick="">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Registrar-se</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-primary2" type="button">Search</button>
+            </form>
+            <a class="cart-link">
+                <img src="./img/buy/icons8-shopping-cart-50.png" height="45px" width="50px">
+            </a>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--
+
+Parte de detalhes de produto
+
+-->
+  <main id="main-card">
+
+    <div class="arrumar">
+      <div id="card-elements">
+
+        <div class="card-box">
+  
+          <div class="product-style"width ="270px">
+            <img id="product-img" src=""/>
+          </div>
+  
+          <div id="all-info">
+            <div class="infobuy-sty">
+              <h5><div id="product-title"></div></h5>
+              <h4>R$<span id="product-price"></span></h4>
+              <div id="product-rate"></div>
+              <button class="btn-primary2">Comprar</button>
+            </div>
+          </div>
+  
+  
+        </div>
+
+      </div> 
+  
+      </div>
+      <div id="item-description">
+        <h5>Description:</h5>
+        <p id="product-description"></p>
+      </div>
+    
+  </main>
+
+<!--
+
+Rodapé da aplicação.
+
+-->
+
+  <footer class="new-footer">
+    <div class="mt-5 p-4 bg-dark2 text-white text-center">
+      <div class="links-sups">
+  
+        <div class="links-sup">
+          <h5>Payments</h5>
+          <a href="#"><img src="./img/cardd/card.png" style="width: 70px; height: 20px;"></a>
+        </div> 
+  
+        <div class="links-sup">
+          <h5>Links</h5>
+          <a href="#">Help</a>
+          <a href="#">Shipping Policy</a>
+          <a href="#">Cancelation & Returns</a>
+          <a href="#">FAQ</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Disclamer</a>
+        </div> 
+  
+        <div class="links-sup">
+          <h5>Contact us</h5>
+          <a href="#"><img src="./img/icon/icons8-compondo-o-mail-24.png"></a>
+          <a href="#"><img src="./img/icon/icons8-call-squared-24.png"></a>
+          <a href="#"><img src="./img/icon/icons8-pessoa-em-casa-24.png"></a>
+        </div> 
+  
+        <div class="links-sup">
+          <h5>Social Media</h5>
+          <a href="#"><img src="./img/icon/icons8-linkedin-circundado-24.png"></a>
+          <a href="#"><img src="./img/icon/icons8-instagram-24.png"></a>
+        </div>
+      </div>
+    </div>
+  
+  </footer>
+  </div>
+</body>
+<script src="./script/product.js"></script>
+</html>
